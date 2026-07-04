@@ -65,3 +65,4 @@ npm run dev
 - Price drop alerts
 - Product reviews and ratings
 - Wishlist feature
+link :https://remix-ai-price-comparison-agent-235706779302.asia-southeast1.run.app
