@@ -1,20 +1,67 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# AI Price Comparison Agent
 
-# Run and deploy your AI Studio app
+## Overview
+AI Price Comparison Agent is a web application that compares product prices from different vendors and helps users find the best deal. Users can upload a product image or search by product name to get price comparisons and smart recommendations.
 
-This contains everything you need to run your app locally.
+## Features
+- Upload product image
+- Search products by name
+- Compare prices across multiple vendors
+- Display the lowest price
+- AI-powered product analysis
+- User-friendly interface
 
-View your app in AI Studio: https://ai.studio/apps/f25967b3-d67e-4016-bba1-a9d598170817
+## Technologies Used
+- React
+- TypeScript
+- Node.js
+- Express.js
+- Google Gemini AI
+- HTML
+- CSS
 
-## Run Locally
+## Project Structure
+```
+src/
+├── components/
+├── pages/
+├── server/
+├── App.tsx
+└── main.tsx
+```
 
-**Prerequisites:**  Node.js
+## Installation
 
+1. Clone the repository
+```
+git clone <repository-url>
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+2. Install dependencies
+```
+npm install
+```
+
+3. Add your Gemini API key in the `.env` file
+```
+GEMINI_API_KEY=your_api_key
+```
+
+4. Start the project
+```
+npm run dev
+```
+
+## How It Works
+1. Open the application.
+2. Upload a product image or enter a product name.
+3. The AI identifies the product.
+4. Prices from different vendors are compared.
+5. The application displays the best price and recommendations.
+
+## Future Improvements
+- More shopping websites
+- Price history tracking
+- Price drop alerts
+- Product reviews and ratings
+- Wishlist feature
