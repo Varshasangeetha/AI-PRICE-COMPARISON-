@@ -1,0 +1,8 @@
+{
+  "name": "Remix: AI Price Comparison Agent",
+  "description": "An AI-powered full-stack shopping assistant and real-time price comparison engine using Google Gemini, featuring natural language search, value scoring, alerts, and wishlists.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
